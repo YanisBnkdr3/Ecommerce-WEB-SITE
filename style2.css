@@ -1,0 +1,67 @@
+body {
+  background-image: url("image2.jpg");
+  background-color: #8a2be2; /* Violet pour le fond de la page */
+  color: #ffffff; /* Blanc pour le texte */
+  font-family: "Arial", sans-serif; /* Exemple de police */
+  margin: 0;
+  padding: 0;
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir la totalité de la page */
+  background-position: center; /* Centre l'image */
+
+  background-repeat: no-repeat; /* Empêche la répétition de l'image si elle est plus petite que la fenêtre du navigateur */
+}
+
+h1 {
+  text-align: center;
+  color: #060607;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+
+form {
+  width: 50%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #cc00ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: white; /* Bleu ciel pour le bouton soumettre */
+  color: #000000; /* Noir pour le texte du bouton */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #cc00ff; /* Turquoise clair au survol */
+}
+
+p {
+  text-align: center;
+  color: #09090c; /* Bleu moyen pour le texte */
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: #070808;
+  font-family: "Courier New", Courier, monospace;
+}
+.nom,
+.mdp {
+  font-family: "Courier New", Courier, monospace;
+  color: #000000;
+}
